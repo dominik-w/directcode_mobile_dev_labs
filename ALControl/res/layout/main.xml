@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+        
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            
+            <ImageButton
+                android:id="@+id/plBtn"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flag_pl" />
+            
+            <ImageButton
+                android:id="@+id/enBtn"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flag_en" />
+        </LinearLayout>
+        
+        <TextView
+            android:text="@string/percentage_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <EditText
+            android:id="@+id/percentage"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:digits="1234567890"
+            android:maxLength="2" />
+        
+        <TextView
+            android:text="@string/quantity_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:digits="1234567890"
+            android:maxLength="4" />
+        
+        <TextView
+            android:text="@string/mass_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        
+        <EditText
+            android:id="@+id/mass"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:digits="1234567890"
+            android:maxLength="3" />
+        
+        <RadioGroup
+            android:id="@+id/gender"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+            <TextView
+                android:text="@string/gender_label"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            
+            <RadioButton
+                android:id="@+id/gender_male"
+                android:layout_height="wrap_content"
+                android:layout_width="132dp"
+                android:checked="false"
+                android:text="@string/gender_male" />
+            
+            <RadioButton
+                android:id="@+id/gender_female"
+                android:layout_height="wrap_content"
+                android:layout_width="132dp"
+                android:checked="false"
+                android:text="@string/gender_female" />
+
+        </RadioGroup>
+        
+        <Button
+            android:id="@+id/calculate"
+            android:text="@string/calculate_label"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent" />
+        
+        <TextView
+            android:id="@+id/result"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:textSize="18px" />
+        
+    </LinearLayout>
+
+</ScrollView>

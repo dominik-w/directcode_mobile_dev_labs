@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">ALControl</string>
+    <string name="percentage_label">Moc trunku (%)</string>
+    <string name="quantity_label">Ilość (ml)</string>
+    <string name="mass_label">Twoja waga (kg)</string>
+    <string name="gender_label">Płeć</string>
+    <string name="gender_male">Mężczyzna</string>
+    <string name="gender_female">Kobieta</string>
+    <string name="result_label">Twoje stężenie alkoholu wynosi około</string>
+    <string name="calculate_label">Oblicz</string>
+    <string name="invalid_data_error">Błąd: niepełne dane</string>
+</resources>

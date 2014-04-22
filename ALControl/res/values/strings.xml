@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">ALControl</string>
+    <string name="percentage_label">Alcohol percentage (%)</string>
+    <string name="quantity_label">Quantity (ml)</string>
+    <string name="mass_label">Your weight (kg)</string>
+    <string name="gender_label">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="result_label">Your blood-alcohol content is about</string>
+    <string name="calculate_label">Calculate</string>
+    <string name="invalid_data_error">Error: missing data</string>
+</resources>
