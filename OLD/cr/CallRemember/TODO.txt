@@ -1,0 +1,8 @@
+
+CallRemember by Dominik Wlazlowski
+
+v. 1.0 - TODO
+
+- Implementation as a service in background
+
+- SQLite database with phone numbers to determine which calls should be recorded
